@@ -1,5 +1,7 @@
 name: Build markdown from YAML data
 
+on: [push]
+
 jobs:
   build:
 
