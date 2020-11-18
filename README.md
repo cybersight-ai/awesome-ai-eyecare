@@ -1,8 +1,6 @@
 ![Cybersight AI Logo](artefacts/images/cybersight-ai-logo.png)
 
-<p align="center">
-  :eyes: [View the collection of publications](/views/publications.md)
-</p>
+:eyes: [View the collection of publications](/views/publications.md)
 
 # Awesome AI in Eye Care and Ophthalmology
 

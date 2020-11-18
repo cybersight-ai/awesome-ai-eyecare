@@ -22,3 +22,13 @@ jobs:
       run: |
         mkdir ./views
         python ./src/generate_publications_view.py
+    - name: Commit views
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Generation of publication views" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
