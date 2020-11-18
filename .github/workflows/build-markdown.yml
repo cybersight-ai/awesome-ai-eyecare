@@ -18,10 +18,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install git+https://github.com/cybersight-ai/python-markdown-generator  
         pip install -r requirements.txt; 
-    - name: Generate publications view
+    - name: Create views directory
       run: |
         mkdir ./views
+    - name: Generate publications view
+      run: |
         python ./src/generate_publications_view.py
+        ls -l
+        ls ./views
     - name: Commit views
       run: |
         git config --local user.email "action@github.com"
