@@ -1,0 +1,139 @@
+scheme:
+    publication_tags:
+      - EXPLAINER # An accessible introduction to an AI-related concept
+      - METHOD
+      - ETHICS
+      - IMPLEMENTATION # Implementation of AI in Eye Care in the real-world
+      - REVIEW
+      - NEW-RESEARCH
+    publication_types:
+      - PEER-REVIEWED-JOURNAL
+      - PREPRINT
+      - PEER-REVIEWED-CONFERENCE
+      - CONFERENCE
+      - BLOG
+      - BROCHURE
+      - EDITORIAL
+    modalities:
+      - FUNDUS-PHOTOGRAPHS
+      - OCT
+      - SLO
+      - WIDEFIELD-SLO
+      - VISUAL-FIELD
+      - STRUCTURED-PATIENT-DATA
+    medical_areas:
+      - AMD
+      - DIABETIC-RETINOPATHY
+      - GLAUCOMA
+      - CARDIOVASCULAR-RISK-FACTORS
+      - SMOKING-STATUS
+      - MAJOR-ADVERSE-CARDIAC-EVENTS
+      - BLOOD-PRESSURE
+      - AGE
+      - GENDER
+      - OTHER
+    application_areas:
+      - DIAGNOSTICS
+      - PROGNOSTICS
+
+items:
+  - title: Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning
+    url: https://www.nature.com/articles/s41551-018-0195-0
+    download-url: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46425.pdf
+    abstract: >
+      Traditionally, medical discoveries are made by observing associations, making hypotheses from them and then designing 
+      and running experiments to test the hypotheses. However, with medical images, observing and quantifying associations 
+      can often be difficult because of the wide variety of features, patterns, colours, values and shapes that are present in 
+      real data. Here, we show that deep learning can extract new knowledge from retinal fundus images. Using deep-learning 
+      models trained on data from 284,335 patients and validated on two independent datasets of 12,026 and 999 patients, we 
+      predicted cardiovascular risk factors not previously thought to be present or quantifiable in retinal images, such as 
+      age (mean absolute error within 3.26 years), gender (area under the receiver operating characteristic curve (AUC) = 0.97), 
+      smoking status (AUC = 0.71), systolic blood pressure (mean absolute error within 11.23 mmHg) and major adverse cardiac 
+      events (AUC = 0.70). We also show that the trained deep-learning models used anatomical features, such as the optic disc 
+      or blood vessels, to generate each prediction.
+    authors: 
+      - Ryan Poplin
+      - Avinash V. Varadarajan
+      - Katy Blumer
+      - Yun Liu
+      - Michael V. McConnell
+      - Greg S. Corrado 
+      - Lily Peng
+      - Dale R. Webster 
+    publication_type: PEER-REVIEWED-JOURNAL
+    publication_tags:
+      - NEW-RESEARCH
+    application_areas:
+      - DIAGNOSTICS
+    medical_areas:
+      - CARDIOVASCULAR-RISK-FACTORS
+      - SMOKING-STATUS
+      - MAJOR-ADVERSE-CARDIAC-EVENTS
+      - BLOOD-PRESSURE
+      - AGE
+      - GENDER
+    modalities:
+      - FUNDUS-PHOTOGRAPHS
+    datasets:
+      - EYEPACS-2K
+      - UK-BIOBANK
+    patients: 284335
+    comment: 'Landmark paper looking at the idea of deriving non-ophthalmological outcomes from retinal images'
+    DOI: https://doi.org/10.1038/s41551-018-0195-0
+
+  
+  - title: Predicting conversion to wet age-related macular degeneration using deep learning
+    url: https://www.nature.com/articles/s41591-020-0867-7
+    download-url: https://www.blog.google/documents/76/Full_text__41591_2020_867_OnlinePDF_2_2.pdf
+    abstract: >
+      Progression to exudative ‘wet’ age-related macular degeneration (exAMD) is a major cause of visual deterioration. In patients 
+      diagnosed with exAMD in one eye, we introduce an artificial intelligence (AI) system to predict progression to exAMD in the second 
+      eye. By combining models based on three-dimensional (3D) optical coherence tomography images and corresponding automatic tissue maps, 
+      our system predicts conversion to exAMD within a clinically actionable 6-month time window, achieving a per-volumetric-scan sensitivity 
+      of 80% at 55% specificity, and 34% sensitivity at 90% specificity. This level of performance corresponds to true positives in 78% and 
+      41% of individual eyes, and false positives in 56% and 17% of individual eyes at the high sensitivity and high specificity points, 
+      respectively. Moreover, we show that automatic tissue segmentation can identify anatomical changes before conversion and high-risk subgroups. 
+      This AI system overcomes substantial interobserver variability in expert predictions, performing better than five out of six experts, 
+      and demonstrates the potential of using AI to predict disease progression. In individuals diagnosed with age-related macular degeneration 
+      in one eye, a deep learning model can predict progression to the ‘wet’, sight-threatening form of the disease in the second eye within a 6-month 
+      time frame.
+    authors: 
+    - Jason Yim
+    - Reena Chopra 
+    - Terry Spitz 
+    - Jim Winkens
+    - Annette Obika 
+    - Christopher Kelly 
+    - Harry Askham 
+    - Marko Lukic 
+    - Josef Huemer 
+    - Katrin Fasler 
+    - Gabriella Moraes 
+    - Clemens Meyer 
+    - Marc Wilson
+    - Jonathan Dixon 
+    - Cian Hughes
+    - Geraint Rees
+    - Peng T. Khaw
+    - Alan Karthikesalingam 
+    - Dominic King
+    - Demis Hassabis
+    - Mustafa Suleyman
+    - Trevor Back
+    - Joseph R. Ledsam 
+    - Pearse A. Keane
+    - Jeffrey De Fauw
+    publication_type: PEER-REVIEWED-JOURNAL
+    publication_tags:
+      - NEW-RESEARCH
+    medical_areas:
+      - AMD
+    application_areas:
+      - PROGNOSTICS
+    modalities:
+      - OCT
+      - SLO
+    datasets:
+      - PRIVATE
+    patients: 2795
+    comment: ''
