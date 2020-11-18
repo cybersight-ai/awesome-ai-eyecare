@@ -20,4 +20,5 @@ jobs:
         pip install -r requirements.txt; 
     - name: Generate publications view
       run: |
+        mkdir ./src/views
         python ./src/generate_publications_view.py
