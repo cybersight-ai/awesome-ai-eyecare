@@ -137,3 +137,24 @@ items:
       - PRIVATE
     patients: 2795
     comment: ''
+    
+  - title: AI papers in ophthalmology made simple
+    url: https://www.nature.com/articles/s41433-020-0929-6
+    download-url: https://www.nature.com/articles/s41433-020-0929-6https://www.nature.com/articles/s41433-020-0929-6.pdf
+    abstract: >
+    authors: 
+    - Sohee Jeon
+    - Yun Liu
+    - Ji-Peng Olivia Li
+    - Dale Webster
+    - Lily Peng
+    - Daniel Ting
+    publication_type: EDITORIAL
+    publication_tags:
+      - EXPLAINER
+    medical_areas: []
+    application_areas: []
+    modalities: []
+    datasets: []
+    patients: null
+    comment: 'Handy explainer to help clinicians understand and critic AI publications'
