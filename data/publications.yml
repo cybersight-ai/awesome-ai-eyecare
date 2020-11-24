@@ -35,6 +35,11 @@ scheme:
     application_areas:
       - DIAGNOSTICS
       - PROGNOSTICS
+    ml_approaches:
+      - SUPERVISED-LEARNING
+      - SEGMENTATION
+      - OBJECT-DETECTION
+      - CLASSIFICATION
 
 items:
   - title: Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning
@@ -67,11 +72,6 @@ items:
       - DIAGNOSTICS
     medical_areas:
       - CARDIOVASCULAR-RISK-FACTORS
-      - SMOKING-STATUS
-      - MAJOR-ADVERSE-CARDIAC-EVENTS
-      - BLOOD-PRESSURE
-      - AGE
-      - GENDER
     modalities:
       - FUNDUS-PHOTOGRAPHS
     datasets:
@@ -158,3 +158,68 @@ items:
     datasets: []
     patients: null
     comment: 'Handy explainer to help clinicians understand and critic AI publications'
+    
+  - title: Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes
+    url: https://jamanetwork.com/article.aspx?doi=10.1001/jama.2017.18152
+    download-url: null
+    abstract: >
+     Importance  A deep learning system (DLS) is a machine learning technology with potential for screening diabetic retinopathy and related eye diseases.
+     
+     Objective  To evaluate the performance of a DLS in detecting referable diabetic retinopathy, vision-threatening diabetic retinopathy, possible glaucoma, and age-related macular degeneration (AMD) in community and clinic-based multiethnic populations with diabetes.
+
+     Design, Setting, and Participants  Diagnostic performance of a DLS for diabetic retinopathy and related eye diseases was evaluated using 494 661 retinal images. A DLS was trained for detecting diabetic retinopathy (using 76 370 images), possible glaucoma (125 189 images), and AMD (72 610 images), and performance of DLS was evaluated for detecting diabetic retinopathy (using 112 648 images), possible glaucoma (71 896 images), and AMD (35 948 images). Training of the DLS was completed in May 2016, and validation of the DLS was completed in May 2017 for detection of referable diabetic retinopathy (moderate nonproliferative diabetic retinopathy or worse) and vision-threatening diabetic retinopathy (severe nonproliferative diabetic retinopathy or worse) using a primary validation data set in the Singapore National Diabetic Retinopathy Screening Program and 10 multiethnic cohorts with diabetes.
+    
+     Exposures  Use of a deep learning system.
+
+     Main Outcomes and Measures  Area under the receiver operating characteristic curve (AUC) and sensitivity and specificity of the DLS with professional graders (retinal specialists, general ophthalmologists, trained graders, or optometrists) as the reference standard.
+
+     Results  In the primary validation dataset (n = 14 880 patients; 71 896 images; mean [SD] age, 60.2 [2.2] years; 54.6% men), the prevalence of referable diabetic retinopathy was 3.0%; vision-threatening diabetic retinopathy, 0.6%; possible glaucoma, 0.1%; and AMD, 2.5%. The AUC of the DLS for referable diabetic retinopathy was 0.936 (95% CI, 0.925-0.943), sensitivity was 90.5% (95% CI, 87.3%-93.0%), and specificity was 91.6% (95% CI, 91.0%-92.2%). For vision-threatening diabetic retinopathy, AUC was 0.958 (95% CI, 0.956-0.961), sensitivity was 100% (95% CI, 94.1%-100.0%), and specificity was 91.1% (95% CI, 90.7%-91.4%). For possible glaucoma, AUC was 0.942 (95% CI, 0.929-0.954), sensitivity was 96.4% (95% CI, 81.7%-99.9%), and specificity was 87.2% (95% CI, 86.8%-87.5%). For AMD, AUC was 0.931 (95% CI, 0.928-0.935), sensitivity was 93.2% (95% CI, 91.1%-99.8%), and specificity was 88.7% (95% CI, 88.3%-89.0%). For referable diabetic retinopathy in the 10 additional datasets, AUC range was 0.889 to 0.983 (n = 40 752 images).
+
+     Conclusions and Relevance  In this evaluation of retinal images from multiethnic cohorts of patients with diabetes, the DLS had high sensitivity and specificity for identifying diabetic retinopathy and related eye diseases. Further research is necessary to evaluate the applicability of the DLS in health care settings and the utility of the DLS to improve vision outcomes.
+    
+    authors: 
+    - Daniel Shu Wei Ting
+    - Carol Yim-Lui Cheung
+    - Gilbert Lim
+    - Gavin Siew Wei Tan
+    - Nguyen D. Quang
+    - Alfred Gan
+    - Haslina Hamzah
+    - Renata Garcia-Franco
+    - Ian Yew San Yeo
+    - Shu Yen Lee
+    - Edmund Yick Mun Wong
+    - Charumathi Sabanayagam
+    - Mani Baskaran
+    - Farah Ibrahim
+    - Ngiap Chuan Tan
+    - Eric A. Finkelstein
+    - Ecosse L. Lamoureux
+    - Ian Y. Wong
+    - Neil M. Bressler
+    - Sobha Sivaprasad
+    - Rohit Varma
+    - Jost B. Jonas
+    - Ming Guang He
+    - Ching-Yu Cheng
+    - Gemmy Chui Ming Cheung
+    - Tin Aung
+    - Wynne Hsu
+    - Mong Li Lee
+    - Tien Yin Wong    
+    
+    publication_type: PEER-REVIEWED-JOURNAL
+    publication_tags:
+      - NEW-RESEARCH
+    medical_areas:
+      - DIABETIC-RETINOPATHY
+      - GLAUCOMA
+    application_areas:
+      - DIAGNOSTICS
+    modalities:
+      - FUNDUS-PHOTOGRAPHS
+    datasets: []
+    patients: null
+    comment: ''
+    
+    
